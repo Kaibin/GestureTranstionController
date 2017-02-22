@@ -40,11 +40,6 @@
     [self.actionButton addTarget:self action:@selector(onActionButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)onActionButtonPressed:(id)sender
 {
     SecondViewController *vc = [[SecondViewController alloc] init];

@@ -10,8 +10,6 @@
 
 @interface CollectionViewCell ()
 
-@property (nonatomic, strong) UIImageView *imageView;
-
 @end
 
 @implementation CollectionViewCell
@@ -23,11 +21,5 @@
     }
     return self;
 }
-
-- (void)defaultInit
-{
-}
-
-
 
 @end
