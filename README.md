@@ -1,0 +1,6 @@
+# GestureTranstionController
+1. 在CollectionViewController中点击Cell逐渐变大Present到新的DetailViewController
+
+2. DetailViewController支持手势任一方向拖动返回。
+
+3. 第一步中的DetailViewController被包在NavigationController中，支持继续Push到新的SecondeViewController
